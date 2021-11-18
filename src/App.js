@@ -54,7 +54,6 @@ function App() {
 		<div className="App">
 			<h1>User Management App</h1>
 			<div className="topRow">
-				<button>Add User</button>
 			</div>
 			<section className="users">
 				{users.map((user, index) => {

@@ -1,8 +1,8 @@
 body {
 	padding: 20px;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-family: monospace;
 	.App {
-		font-size: 1.6rem;
+		font-size: 1.2rem;
 		h1 {
 			font-size: 2.5rem;
 			color: #777;
@@ -11,7 +11,7 @@ body {
 		}
 		h2 {
 			font-size: 2rem;
-			color: #888;
+			color: #777;
 			font-weight: bold;
 			margin: 10px 0;
 			background-color: #eee;
@@ -27,15 +27,16 @@ body {
 	}
 	div.userCard {
 		background-color: #eee;
+		color:#777;
 		margin: 0 0 10px 0;
 		padding: 10px;
 		font-size: 1.3rem;
 		.row {
 			display: flex;
 			.data {
-				margin: 0 0 0 10px;
+				margin: 0 0 5px 10px;
 				font-family: "Courier New", Courier, monospace;
-				color: brown;
+				color: rgb(0, 81, 156);
 			}
 		}
 		div.iconRow {
@@ -43,9 +44,10 @@ body {
 			display: flex;
 			button {
 				margin: 0 5px 0 0;
-				background-color: #ccc;
+				background-color: rgba(0, 81, 156, 0.37);
 				width: 30px;
 				padding: 6px 0 3px 0;
+				border: none;
 			}
 		}
 	}
